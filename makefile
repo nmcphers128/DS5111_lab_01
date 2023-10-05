@@ -5,7 +5,7 @@ clean:
 	rm synthetic_data.csv square_wave.png fibonachi.png
 	echo "All cleaned up"
 
-.PHONY: all_images
+PHONY: all_images
 
 all_images:
 	gnuplot -e "set datafile separator ','; set term png; set output 'square_wave.png'; plot 'synthetic_data.csv' using 1:2 with lines"; \
