@@ -3,7 +3,7 @@ default:
 
 clean:
 	rm synthetic_data.csv square_wave.png fibonachi.png
-	echo "All cleaned up"
+	echo "All cleaned up now"
 
 PHONY: all_images
 
